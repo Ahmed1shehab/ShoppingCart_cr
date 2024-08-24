@@ -1,0 +1,43 @@
+.header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px;
+        border-bottom: 1px solid #eee;
+        margin: auto;
+        font-size: 18px;
+        max-width: 1200px;
+        height: 70px;
+               
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+.logo img{
+    max-width: 40px;
+    margin-right: 5px;
+}
+
+.navigation .link{
+    padding: 10px;
+  }
+  .navigation .link.active{
+    background-color: #EEEEEE;
+    border-radius: 5px;
+  }
+  
+.link{
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+}
+.items{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    min-width: 70px;
+}

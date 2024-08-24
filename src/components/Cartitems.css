@@ -1,0 +1,37 @@
+.cartitems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 30px 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+}
+.cartitems img{
+    width: 150px;
+    height: 100px;
+   margin-right: 10px;
+    border-radius: 5px;
+}
+.cartitems p{
+    font-size: 18px;
+    font-weight: 500; 
+    margin-right: 10px;
+    width: 350px;
+}
+.cartitems span{
+    width: 100px;
+    margin-right: 10px;
+}
+.cartitems button{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: brown;
+    color: #fff;
+}
+.cartitems button:hover{
+    background-color: #8e090f;
+    color: #fff;
+}
