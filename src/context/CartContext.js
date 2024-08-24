@@ -43,7 +43,7 @@ const addToCart = (product) => {
         }
         useEffect(() => {
             localStorage.setItem('cartList', JSON.stringify(state.cartList));
-            localStorage.getItem('total',JSON.stringify(state.total));
+            localStorage.setItem('total',JSON.stringify(state.total));
         },[state.cartList,state.total])
     const value ={
         total: state.total,
